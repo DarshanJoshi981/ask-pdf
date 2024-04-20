@@ -23,6 +23,7 @@
 To get started with **Ask PDF**, simply clone this repository and install the necessary dependencies. Run the application using Streamlit and upload your PDF documents to begin extracting insights instantly.
 ```bash
 streamlit run app.py
+```
 
 ## Contribution
 
