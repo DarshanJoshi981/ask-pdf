@@ -37,11 +37,3 @@ def extract_text_with_easyocr(list_dict_final_images):
         image_content.append(raw_text)
 
     return "\n".join(image_content)
-
-
-if __name__ == "__main__":
-    pdf_path = r"C:\Users\Darshan Joshi\Downloads\test_docs\test_docs\Precise Imaging Medical Records.pdf"  # Replace with the path to your PDF file
-    extracted_text = extract_text_with_easyocr(convert_pdf_to_images(pdf_path))
-
-    # Print or save the extracted text
-    print(extracted_text)
